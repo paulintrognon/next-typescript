@@ -4,6 +4,20 @@ Starter code for a clean Next.hs + TypeScript + ESLint project.
 
 More info here: https://paulintrognon.fr/blog/post/typescript-prettier-eslint-next-js
 
+## Get started
+
+```sh
+# Install dependencies
+yarn
+
+# Start dev server
+yarn dev
+
+# Start tests
+yarn test --watch
+```
+
+
 ## What is the difference with official with-typescript-eslint-jest?
 
 Vercel made an official similar example template: https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest
