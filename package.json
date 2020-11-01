@@ -1,11 +1,12 @@
 {
   "name": "nextjs-typescript",
+  "version": "v1.0.0",
+  "license": "MIT",
   "author": {
     "name": "Paulin TROGNON",
     "email": "contact@paulintrognon.fr",
     "url": "https://paulintrognon.fr"
   },
-  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
