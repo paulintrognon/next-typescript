@@ -1,6 +1,6 @@
 # Next.js with TypeScript and ESLint
 
-Starter code for a clean Next.hs + TypeScript + ESLint project.
+Starter code for a clean Next.js + TypeScript + ESLint project.
 
 More info here: https://paulintrognon.fr/blog/post/typescript-prettier-eslint-next-js
 
@@ -27,4 +27,4 @@ Main differences are:
   - ESLint and Prettier are integrated with VSCode out of the box (you just need VSCode's ESLint plugin).
   - Prettier is integrated with ESLint, so you do not need the Prettier plugin.
   - TypeScript types are checked before each commit, not just on `git push`.
-  - You can understand every configurations by [reading the blog post](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest) :-)
+  - You can build it yourself by [reading the blog post](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest) :-)
