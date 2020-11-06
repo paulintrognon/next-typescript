@@ -12,12 +12,12 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "lint": "eslint . --ext ts --ext tsx --fix",
+    "lint": "eslint --ext ts --ext tsx",
     "test": "jest"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn type-check && yarn lint"
+      "pre-commit": "lint-staged"
     }
   },
   "dependencies": {
@@ -42,6 +42,7 @@
     "husky": "^4.3.0",
     "jest": "^26.6.1",
     "jest-watch-typeahead": "^0.6.1",
+    "lint-staged": ">=10",
     "prettier": "^2.1.2",
     "react-test-renderer": "^17.0.1",
     "typescript": "^4.0.5"
