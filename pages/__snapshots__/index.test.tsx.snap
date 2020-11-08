@@ -3,7 +3,15 @@
 exports[`Index page should match the snapshot 1`] = `
 <main>
   <h1>
-    Hello World!
+    Next SpaceX Launch: 
+    Mission Name
   </h1>
+  <p>
+    Falcon 9
+     will take off from 
+    Kennedy Space Center
+     on 
+    Sun Nov 15 2020
+  </p>
 </main>
 `;
