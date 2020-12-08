@@ -13,8 +13,8 @@ yarn
 # Start dev server
 yarn dev
 
-# Start tests
-yarn test --watch
+# Start tests (or yarn test --watch for watch mode)
+yarn test
 ```
 
 
