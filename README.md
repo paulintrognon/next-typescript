@@ -31,4 +31,4 @@ Main differences are:
   - Prettier is integrated with ESLint, so you do not need the Prettier plugin.
   - Improved lint-staged configuration: linting will only happen on staged files, not all files.
   - TypeScript types are checked before each commit, not just on `git push`.
-  - You can build it yourself by [reading the blog post](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest) :-)
+  - You can build it yourself by [reading the blog post](https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js) :-)
