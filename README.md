@@ -15,6 +15,9 @@ yarn dev
 
 # Start tests (or yarn test --watch for watch mode)
 yarn test
+
+# Lint (the dot is important)
+yarn lint .
 ```
 
 
