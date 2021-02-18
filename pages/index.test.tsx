@@ -4,7 +4,7 @@ import IndexPage from '.'
 describe('Index page', () => {
   it('should match the snapshot', () => {
     const launch = {
-      timestamp: 1605401340000,
+      timestamp: 1605451340000,
       mission: 'Mission Name',
       site: 'Kennedy Space Center',
       rocket: 'Falcon 9',
