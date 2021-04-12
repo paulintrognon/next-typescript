@@ -31,5 +31,5 @@ Main differences are:
 - Prettier is integrated with ESLint, so you do not need the Prettier plugin.
 - Improved lint-staged configuration: linting will only happen on staged files, not all files.
 - TypeScript types are checked before each commit, not just on `git push`.
-- It uses latest Husky v5 version
+- It uses latest Husky v6 version
 - You can build it yourself by [reading the blog post](https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js) :-)
