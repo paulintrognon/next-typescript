@@ -31,7 +31,7 @@ module.exports = {
         'jsx-a11y/anchor-is-valid': 'off', // This rule is not compatible with how Next.js's <Link />
         '@typescript-eslint/no-unused-vars': ['error'],
         '@typescript-eslint/explicit-function-return-type': [
-          // I suggest this setting for requiring return types on functions only where usefull
+          // I suggest this setting for requiring return types on functions only where useful
           'warn',
           {
             allowExpressions: true,
