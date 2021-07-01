@@ -8,18 +8,14 @@ More info here: https://paulintrognon.fr/blog/post/typescript-prettier-eslint-ne
 
 ```sh
 # Install dependencies
-yarn
+yarn install
+
+# Enable husky
+yarn husky install
 
 # Start dev server
 yarn dev
-
-# Start tests (or yarn test --watch for watch mode)
-yarn test
-
-# Lint (the dot is important)
-yarn lint .
 ```
-
 
 ## What is the difference with official with-typescript-eslint-jest
 
@@ -27,9 +23,8 @@ Vercel made an official similar example template: https://github.com/vercel/next
 
 Main differences are:
 
-- ESLint and Prettier are integrated with VSCode out of the box (you just need VSCode's ESLint plugin).
-- Prettier is integrated with ESLint, so you do not need the Prettier plugin.
-- Improved lint-staged configuration: linting will only happen on staged files, not all files.
-- TypeScript types are checked before each commit, not just on `git push`.
 - It uses latest Husky v6 version
+- ESLint and Prettier are integrated with VSCode to fix and format code on save (you need eslint and prettier VSCode plugins)
+- Improved lint-staged configuration: linting will only happen on staged files, not all file
+- TypeScript types are checked before each commit, not just on `git push`.
 - You can build it yourself by [reading the blog post](https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js) :-)

@@ -1,48 +1,27 @@
 {
-  "name": "nextjs-typescript",
-  "version": "v1.0.0",
-  "license": "MIT",
-  "author": {
-    "name": "Paulin TROGNON",
-    "email": "contact@paulintrognon.fr",
-    "url": "https://paulintrognon.fr"
-  },
+  "name": "next-typescript-2",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "lint": "eslint --ext ts --ext tsx",
-    "test": "jest",
-    "postinstall": "husky install"
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "^10.2.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@types/jest": "^26.0.23",
-    "@types/node": "^14.17.3",
-    "@types/react": "^17.0.11",
-    "@types/react-test-renderer": "^17.0.1",
-    "@typescript-eslint/eslint-plugin": "^4.27.0",
-    "@typescript-eslint/parser": "^4.27.0",
-    "babel-jest": "^27.0.2",
-    "eslint": "^7.28.0",
+    "@types/react": "17.0.13",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^6.0.0",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.0.4",
-    "jest-watch-typeahead": "^0.6.4",
+    "husky": "^7.0.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.1",
-    "react-test-renderer": "^17.0.2",
-    "typescript": "^4.3.2"
+    "prettier": "^2.3.2",
+    "typescript": "4.3.5"
   }
 }
