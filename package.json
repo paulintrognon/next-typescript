@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/react": "17.0.13",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "eslint": "7.29.0",
+    "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.0",
