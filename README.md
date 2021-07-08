@@ -23,7 +23,7 @@ Vercel made an official similar example template: https://github.com/vercel/next
 
 Main differences are:
 
-- It uses latest Husky v6 version
+- It uses latest Husky v7 version
 - ESLint and Prettier are integrated with VSCode to fix and format code on save (you need eslint and prettier VSCode plugins)
 - Improved lint-staged configuration: linting will only happen on staged files, not all file
 - TypeScript types are checked before each commit, not just on `git push`.
