@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next eslint ."
+    "lint": "next lint ."
   },
   "dependencies": {
     "next": "12.3.1",
