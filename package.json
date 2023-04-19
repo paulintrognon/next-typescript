@@ -23,6 +23,6 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.6",
-    "typescript": "5.0.2"
+    "typescript": "5.0.4"
   }
 }
